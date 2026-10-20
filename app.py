@@ -18,7 +18,7 @@ MODEL_PATH = "model.weights.h5"
 @st.cache_resource
 def load_model():
     if not os.path.exists(MODEL_PATH):
-        url = f"https://drive.google.com/uc?export=download&id={MODEL_FILE_ID}"
+        url = f"https://drive.google.com/uc?export=download&id={MODEL_FILE_ID}& confirm=t"
         response = requests.get(url, timeout=120)
         response.raise_for_status()
 
