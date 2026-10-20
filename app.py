@@ -10,7 +10,7 @@ st.set_page_config(page_title="TomatoCare AI", page_icon="🍅")
 st.title("🍅 TomatoCare AI")
 st.write("AI-powered Tomato Leaf Disease Detection")
 
-Google Drive model file ID
+# Google Drive model file ID
 
 MODEL_FILE_ID = "1kWzuIVVZkfgdsFu0eGp0pa0DfBnpEY6y"
 MODEL_PATH = "model.weights.h5"
